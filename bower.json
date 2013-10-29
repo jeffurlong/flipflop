@@ -1,0 +1,14 @@
+{
+    "name":  "Flipflop",
+    "version": "0.0.1",
+    "dependencies": {
+        "twitter": "latest",
+        "font-awesome" : "latest",
+        "bootstrap-wysihtml5": "latest",
+        "modernizr" : "latest",
+        "growl" : "latest",
+        "bootstrap-switch": "latest",
+        "bootstrap-datepicker": "latest",
+        "html5sortable": "latest"
+    }
+}

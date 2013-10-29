@@ -9,6 +9,7 @@
         "zizaco/entrust": "dev-master",
         "jasonlewis/basset": "dev-master",
         "robclancy/presenter": "1.2.*",
+        "bllim/datatables": "*",
         "anahkiasen/former": "dev-master"
 	},
 	"require-dev": {
@@ -19,9 +20,12 @@
 		"classmap": [
 			"app/commands",
 			"app/controllers",
-			"app/models",
 			"app/database/migrations",
 			"app/database/seeds",
+			"app/helpers",
+			"app/models",
+			"app/presenters",
+			"app/repositories",
 			"app/tests/TestCase.php"
 		]
 	},
