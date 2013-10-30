@@ -114,6 +114,13 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		'Zizaco\Confide\ConfideServiceProvider', // Confide Provider
+        'Zizaco\Entrust\EntrustServiceProvider', // Entrust Provider for roles
+        'Basset\BassetServiceProvider', // Better Asset Management
+        'Robbo\Presenter\PresenterServiceProvider', // Presenter
+        'Bllim\Datatables\DatatablesServiceProvider', // Datatables
+        'Former\FormerServiceProvider', // Former
+
 	),
 
 	/*
@@ -178,6 +185,17 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+
+        'Confide'         => 'Zizaco\Confide\ConfideFacade', // Confide Alias
+        'Entrust'         => 'Zizaco\Entrust\EntrustFacade', // Entrust Alias
+        'Presenter'       => 'Robbo\Presenter\Presenter', // Presenter
+        'Presentable'     => 'Robbo\Presenter\PresentableInterface', // Presenter
+        'Basset'          => 'Basset\Facade', // Better Asset Management
+        'String'          => 'Helpers\String', // String
+        'Array'          => 'Helpers\Array', // String
+        'Carbon'          => 'Carbon\Carbon', // Carbon
+        'Datatables'      => 'Bllim\Datatables\Datatables', // DataTables
+        'Former'                   => 'Former\Facades\Former', // Former
 
 	),
 

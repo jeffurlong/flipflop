@@ -5,12 +5,11 @@
 ### Inital configuration
 - Modify public folder name to match server public folder name ( as needed)
 - Update `bootstrap/paths.php`
-    - update public key
+    - update `public` key
 - Update `app/config/app.php` (as needed)
 - Update `app/config/database.php` (as needed)
 - Update `app/config/mail.php` (as needed)
-- Create `app/config/payments.php`
-    - Add Stripe config details
+- Update `app/config/payments.php`
 
 ### Environment configuration
 - Modify `bootstrap\start.php`
